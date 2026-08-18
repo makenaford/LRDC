@@ -1,0 +1,20 @@
+{
+  "name": "solutions-library",
+  "version": "0.1.0",
+  "description": "React component library matching the Figma Solutions Library (2026) UI Components page",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "figma:publish": "figma connect publish",
+    "figma:unpublish": "figma connect unpublish"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@figma/code-connect": "^1.3.0",
+    "typescript": "^5.4.0",
+    "@types/react": "^18.2.0"
+  }
+}
